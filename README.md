@@ -1,50 +1,49 @@
 # vityarthi_-Exam-Date-and-Subject-Lookup-by-Registration-Number
 
-Project Title
+*Project Title:
 Exam Schedule Lookup System
 
-Overview
+*Overview:
 This project retrieves exam dates and subject names by entering a student's registration number prefix associated with their academic branch. It links the student’s branch to relevant subjects and displays personalized exam schedules clearly and quickly. This improves access to exam information and aids in student preparation.
 
-Features
-Retrieve personalized exam schedules based on branch prefix input.
+*Features:
+1.Retrieve personalized exam schedules based on branch prefix input.
 
-Display subjects along with exam dates and timings.
+2.Display subjects along with exam dates and timings.
 
-Support for multiple branches with branch-specific subjects.
+3.Support for multiple branches with branch-specific subjects.
 
-Simple console input/output interface for ease of use.
+4.Simple console input/output interface for ease of use.
 
-Case-insensitive branch prefix matching.
+5.Case-insensitive branch prefix matching.
 
-Technologies Used
-Java programming language
+*Technologies Used:
+1.Java programming language
 
-Java Collections Framework (HashMap)
+2.Java Collections Framework (HashMap)
 
-Console-based user input with Scanner
+3.Console-based user input with Scanner
 
-Installation and Running Instructions
-Ensure you have Java Development Kit (JDK) installed (version 8 or above recommended).
+*Installation and Running Instructions:
+1.Ensure you have Java Development Kit (JDK) installed (version 8 or above recommended).
 
-Clone or download the project repository from GitHub.
+2.Clone or download the project repository from GitHub.
 
-Navigate to the project directory.
+3.Navigate to the project directory.
 
-Compile the Java program:
+4.Compile the Java program:
 
-text
-javac ExamScheduleLookup.java
-Run the compiled program:
+"javac ExamScheduleLookup.java"
 
-text
-java ExamScheduleLookup
-Enter the branch prefix when prompted (e.g., 24BME, 24BCE, 24BAS) to retrieve exam schedules.
+5.Run the compiled program:
 
-Testing Information
-Manual tests can be performed by entering branch prefixes and verifying the printed exam subjects, dates, and timings match expected branch schedules.
+"java ExamScheduleLookup"
+6.Enter the branch prefix when prompted (e.g., 24BME, 24BCE, 24BAS) to retrieve exam schedules.
 
-Test inputs:
+*Testing Information:
+1.Manual tests can be performed by entering branch prefixes and verifying the printed exam subjects, dates, and timings match expected branch schedules.
+
+2.Test inputs:
 
 24BME (should display Mechanical Engineering subjects)
 
