@@ -1,1 +1,58 @@
+*Functional Requirements:
 
+1.Input: Student’s registration number prefix.
+
+2.Output: Display personalized exam subjects, dates, and timings based on branch.
+
+3.Support multiple academic branches with branch-specific exam data.
+
+4.Handle invalid or unknown branch prefixes gracefully.
+
+*Non-Functional Requirements:
+1.Usability: Simple console-based interface.
+
+2.Performance: Instant retrieval of exam schedule.
+
+3.Reliability: Accurate mapping of branch prefix to exams.
+
+4.Maintainability: Modular code, clean data mappings.
+
+*System Architecture Diagram:
+
+1.User Interface (Console Input/Output)
+
+2.Exam Schedule Service (Lookup logic & data storage)
+
+3.Data Store (HashMap storing branch to exam schedules)
+
+*Workflow Diagram:
+1.User inputs registration number prefix.
+
+2.System validates prefix.
+
+3.System retrieves linked exam schedule.
+
+4.System displays subject names, exam dates, and timings.
+
+5.On invalid input, system shows error message.
+
+*UML Diagrams:
+
+1.Use Case Diagram:
+
+. Actors: Student
+
+. Use Cases: Enter registration prefix, View exam schedule, Handle errors.
+
+2.Class Diagram:
+
+. Classes: ExamScheduleLookup (main), ScheduleData (manages mappings), UserInputHandler.
+
+3.Sequence Diagram:
+
+. User enters prefix → System processes input → System retrieves schedule → System outputs result.
+
+4.Database Design:
+. Branch Table: BranchPrefix, BranchName
+
+. ExamSchedule Table: BranchPrefix, SubjectName, ExamDate, ExamTime
