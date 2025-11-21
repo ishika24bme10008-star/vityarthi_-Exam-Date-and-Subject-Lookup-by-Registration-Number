@@ -56,5 +56,4 @@ This project retrieves exam dates and subject names by entering a student's regi
 
 24BAS (should display Aerospace Engineering subjects)
 
-Confirm the program handles invalid prefixes gracefully with an appropriate message.
 
