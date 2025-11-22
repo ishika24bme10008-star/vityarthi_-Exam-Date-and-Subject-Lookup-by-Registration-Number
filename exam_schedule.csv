@@ -1,0 +1,15 @@
+*branch_prefix: Academic branch code (matches codes in students.csv and subjects.csv)
+
+*subject_name: The name of the subject (exact match with subjects.csv)
+
+*exam_date: The exam date, using ISO format (YYYY-MM-DD) for consistency and easy parsing
+
+*exam_time: The exam time, ideally in a clear human-readable format (e.g., 10:00 AM - 01:00 PM)
+
+branch_prefix,subject_name,exam_date,exam_time
+24BME,Thermodynamics,2025-12-02,10:00 AM - 01:00 PM
+24BME,Fluid Mechanics,2025-12-06,02:00 PM - 05:00 PM
+24BCE,Data Structures,2025-12-01,09:00 AM - 12:00 PM
+24BCE,Operating Systems,2025-12-05,01:00 PM - 04:00 PM
+24BAS,Aerodynamics,2025-12-03,09:30 AM - 12:30 PM
+24BAS,Propulsion Systems,2025-12-07,01:30 PM - 04:30 PM
