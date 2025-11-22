@@ -56,4 +56,10 @@ This project retrieves exam dates and subject names by entering a student's regi
 
 24BAS (should display Aerospace Engineering subjects)
 
+*How to Use: To retrieve the exam schedule for a branch prefix programmatically:
+
+Map<String, String[]> schedule = ExamScheduleLookup.getSchedule("24BME");
+
+
+
 
