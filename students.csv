@@ -1,0 +1,12 @@
+
+*Registration_number: Unique student registration ID
+
+*branch_prefix: Student’s academic branch code 
+
+registration_number,branch_prefix
+20250101,24BME
+20250102,24BME
+20250123,24BCE
+20250124,24BCE
+20250245,24BAS
+20250246,24BAS
