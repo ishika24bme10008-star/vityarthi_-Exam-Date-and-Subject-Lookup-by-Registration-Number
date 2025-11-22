@@ -27,6 +27,11 @@ public class ExamScheduleLookup {
         branchExamSchedule.put("24BAS", basSchedule);
     }
 
+    // ADD THIS STATIC METHOD BELOW
+    public static Map<String, String[]> getSchedule(String branchPrefix) {
+        return branchExamSchedule.get(branchPrefix);
+    }
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter branch prefix (e.g., 24BME, 24BCE, 24BAS): ");
@@ -43,3 +48,4 @@ public class ExamScheduleLookup {
         scanner.close();
     }
 }
+
