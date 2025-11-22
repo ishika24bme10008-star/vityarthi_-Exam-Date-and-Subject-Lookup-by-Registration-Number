@@ -1,0 +1,11 @@
+branch_prefix: The academic branch code
+
+subject_name: The name of the subject assigned to that branch
+
+branch_prefix,subject_name
+24BME,Thermodynamics
+24BME,Fluid Mechanics
+24BCE,Data Structures
+24BCE,Operating Systems
+24BAS,Aerodynamics
+24BAS,Propulsion Systems
